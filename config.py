@@ -11,8 +11,8 @@ TG_PROXY = (
     {}
 )  # {"scheme": ”socks5”, "hostname": ””, "port": 1234, "username": ”user”, "password": ”pass”}
 USER_SESSION_STRING = ""
-CMD_SUFFIX = ""
-AUTHORIZED_CHATS = ""
+CMD_SUFFIX = "2"
+AUTHORIZED_CHATS = "-1002573482711"
 SUDO_USERS = ""
 STATUS_LIMIT = 10
 DEFAULT_UPLOAD = "rc"
@@ -20,7 +20,7 @@ STATUS_UPDATE_INTERVAL = 15
 FILELION_API = ""
 STREAMWISH_API = ""
 EXCLUDED_EXTENSIONS = ""
-INCOMPLETE_TASK_NOTIFIER = False
+INCOMPLETE_TASK_NOTIFIER = True
 YT_DLP_OPTIONS = ""
 USE_SERVICE_ACCOUNTS = False
 NAME_SWAP = ""
@@ -43,8 +43,8 @@ DISABLE_SEED = False
 DISABLE_FF_MODE = False
 
 # Telegraph
-AUTHOR_NAME = "WZML-X"
-AUTHOR_URL = "https://t.me/WZML_X"
+AUTHOR_NAME = "IqbalEditz"
+AUTHOR_URL = "https://t.me/iqbaleditzzz"
 
 # Task Limits
 DIRECT_LIMIT = 0
@@ -84,10 +84,10 @@ IMDB_TEMPLATE = """<b>Title: </b> {title} [{year}]
 <a href="{url_cast}">Read More ...</a>"""
 
 # Task Tools
-FORCE_SUB_IDS = ""
+FORCE_SUB_IDS = "-1002566697244"
 MEDIA_STORE = True
-DELETE_LINKS = False
-CLEAN_LOG_MSG = False
+DELETE_LINKS = True
+CLEAN_LOG_MSG = True
 
 # Limiters
 BOT_MAX_TASKS = 0
@@ -105,7 +105,7 @@ TIMEZONE = "Asia/Kolkata"
 GDRIVE_ID = ""
 GD_DESP = "Uploaded with WZ Bot"
 IS_TEAM_DRIVE = False
-STOP_DUPLICATE = False
+STOP_DUPLICATE = True
 INDEX_URL = ""
 
 # YT Tools
@@ -156,20 +156,20 @@ UPDATE_PKGS = True
 
 # Leech
 LEECH_SPLIT_SIZE = 0
-AS_DOCUMENT = False
+AS_DOCUMENT = True
 EQUAL_SPLITS = False
 MEDIA_GROUP = False
 USER_TRANSMISSION = True
 HYBRID_LEECH = True
 LEECH_PREFIX = ""
-LEECH_SUFFIX = ""
+LEECH_SUFFIX = "[@MM_M0V1ES]"
 LEECH_FONT = ""
 LEECH_CAPTION = ""
 THUMBNAIL_LAYOUT = ""
 
 # Log Channels
-LEECH_DUMP_CHAT = ""
-LINKS_LOG_ID = ""
+LEECH_DUMP_CHAT = "-1002755250239"
+LINKS_LOG_ID = "-1002755250239"
 MIRROR_LOG_ID = ""
 
 # qBittorrent/Aria2c
